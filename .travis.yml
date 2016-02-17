@@ -2,9 +2,9 @@ addons:
   artifacts:
     debug: true
     paths: [libs.zip, build.zip]
-    target_paths: 93ff2cd1-92af-4d00-928e-1a66bb23280f
+    target_paths: 1042d80e-248c-4fdd-9f23-4b4e6e7d6b65
 after_success: ['mvn clean cobertura:cobertura coveralls:report', ./df-build.sh]
 jdk: [openjdk6, openjdk7, oraclejdk8]
 language: java
 sudo: false
-# Modified by Insights Service at 2016-02-16 11:45:34.767737
+# Modified by Insights Service at 2016-02-17 13:47:51.966552
