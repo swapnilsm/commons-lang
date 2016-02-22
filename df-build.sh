@@ -7,4 +7,4 @@ echo "Zipping artifacts begin..."
 zip libs.zip $(git ls-files -o | grep -e target/dependency/.*jar) || { echo "Error: Zipping libs failed"; exit 1; }
 zip build.zip $(git ls-files -o | grep -e target/classes/.*class) || { echo "Error: Zipping binaries failed"; exit 1; }
 echo "Zipping artifacts DONE!!!"
-# Modified by Insights Service at 2016-02-19 12:33:06.010960
+# Modified by Insights Service at 2016-02-22 12:36:02.400399
