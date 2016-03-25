@@ -6,7 +6,7 @@ addons:
 after_success: 
   - mvn clean cobertura:cobertura coveralls:report
   - git clone https://github.com/DevFactory/df-build.git
-  - ./df-build/df-build.sh
+  - ./df-build/df-build.sh 
 jdk: [openjdk6, openjdk7, oraclejdk8]
 language: java
 sudo: false
